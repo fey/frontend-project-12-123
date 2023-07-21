@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Realtime Chat on React/Redux, using AJAX, REST, websockets, React Hooks and Redux",
   "main": "src/index.js",
+  "engines": {
+    "node": ">= 20.2"
+  },
   "scripts": {
     "build": "npm run build --prefix frontend",
     "start": "start-server -s ./frontend/build",
